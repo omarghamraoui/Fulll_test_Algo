@@ -5,6 +5,7 @@ function fizzBuzz(int $number): string
         $number % 15 === 0 => 'FizzBuzz',
         $number % 3 === 0 => 'Fizz',
         $number % 5 === 0 => 'Buzz',
+        $number % 9 === 0 => 'Fizz',
         default => (string)$number,
     };
 }
